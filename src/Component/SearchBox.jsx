@@ -2,7 +2,7 @@ import React from 'react';
 
 const SearchBox = () => {
   return (
-    <div className=" absolute flex bg-[#FFFFFF26] rounded-full w-[344px] h-[56px] top-[504px] left-[548px]
+    <div className=" absolute flex bg-[#FFFFFF26] rounded-full w-[344px] h-[56px] top-[504px] left-[588px]
        p-[8px]  pr-[8px] py-[8px] pl-[20px]  border-[0.86px]  justify-between">
       <input
         type="text"

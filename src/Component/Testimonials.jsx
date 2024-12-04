@@ -5,7 +5,7 @@ import Client3 from '/Client3.jpg'
 
 const Testimonials = () => {
   return (
-    <div>
+    <div className='mx-auto'>
         <div>
         <h2 className=" absolute w-[155px] h-[22px] top-[4285.42px] left-[631px] font-gilroy font-semibold text-[18px] leading-[21.09px] tracking-[0.175em] text-center text-[#E58411]">TESTIMONIALS</h2> 
         <h1 className=" absolute w-[413px] h-[52px] top-[4327.42px] left-[502px] font-gilroy font-bold text-[42px] leading-[49.22px] text-center text-[#1E1E1E]">Our Client Reviews</h1> 

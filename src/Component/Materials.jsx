@@ -5,7 +5,7 @@ import Material3 from '/Material3.jpg'
 
 const Materials = () => {
   return (
-    <div className=" container "> 
+    <div className=" container mx-auto "> 
       <div className="text-section"> 
         <h2 className=" absolute w-[117px] h-[22px] top-[3555px] left-[80px] font-gilroy font-semibold text-[18px] leading-[21.09px] tracking-[0.175em] text-left text-[#E58411]">MATERIALS</h2> 
         <h1 className=" absolute w-[413px] h-[156px] top-[3597px] left-[80px] font-gilroy font-bold text-[42px] leading-[49.22px] text-left text-[#1E1E1E]">Very serious materials for making furniture</h1> 

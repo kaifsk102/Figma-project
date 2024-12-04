@@ -30,7 +30,7 @@ const ToggleSwitch = () => {
   //
 
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col mx-auto items-center">
       <div className="flex bg-gray-200 justify-center w-[348px] absolute top-[1680px]  h-[57px] p-[6px_0px_0px_0px] rounded-full">
         {options.map((option) => (
           <button

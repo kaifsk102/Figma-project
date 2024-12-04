@@ -3,8 +3,8 @@ import Living_Room from '/Experiences.jpg'
 
 const Experiences = () => {
   return (
-    <div className="container "> 
-    <div className=" absolute w-[629px] h-[445px] top-[2716px] left-[-27px] rounded-tl-[20px]"> 
+    <div className="container  "> 
+    <div className=" absolute mx-auto w-[629px] h-[445px] top-[2716px] left-[-27px] rounded-tl-[20px]"> 
       <img src={Living_Room} alt="Living Room" className="living-room-image" /> 
     </div> 
       <div className="text-section"> 

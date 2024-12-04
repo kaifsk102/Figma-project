@@ -2,7 +2,7 @@ import React from 'react';
 
 const WhyChoosingUs = () => {
   return (
-    <div className=" w-full h-[424px]  font-gilroy">
+    <div className=" w-full h-[424px] mx-auto font-gilroy">
       <h2 className=" w-[242px] h-[104px] absolute top-[1242px] left-[80px] font-bold text-[38px] leading-[49.22px] text-left">Why Choosing Us</h2>
       <div className="">
         <div className="  ">
