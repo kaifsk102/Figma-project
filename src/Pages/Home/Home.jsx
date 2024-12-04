@@ -8,14 +8,13 @@ import Materials from '../../Component/Materials'
 import Testimonials from '../../Component/Testimonials'
 import Footer from '../../Component/Footer'
 import BestSellingProduct from '../../Component/BestSellingProduct'
-import './Home.css'
 
 
 const Home = () => {
   return (
     <>
     <div>
-    <div className=' h-[1084px] banner  '>
+    <div className=' relative w-full h-[1084px] bg-cover bg-custom-gradient '>
     <Navbar/>
     <div className='grid items-center justify-center '>
     

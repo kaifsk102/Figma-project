@@ -1,8 +1,0 @@
-.banner { 
-    width: full;
-    height: 1084px; 
-    background-image:linear-gradient(180deg, rgba(255, 255, 255, 0) 86.13%, #FFFFFF 100%),url('./bannaer.jpg'); 
-    background-size: cover; 
-    background-position: center; 
-    ;
-     }
