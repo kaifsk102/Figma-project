@@ -3,11 +3,11 @@ import backgroundImage from '/bannaer.jpg'
 import Navbar from '../../Component/Navbar'
 import SearchBox from '../../Component/SearchBox'
 import WhyChoosingUs from '../../Component/WhyChoosingUs'
-import BestSellingProduct from '../../Component/BestSellingProduct'
 import Experiences from '../../Component/Experiences'
 import Materials from '../../Component/Materials'
 import Testimonials from '../../Component/Testimonials'
 import Footer from '../../Component/Footer'
+import BestSellingProduct from '../../Component/BestSellingProduct'
 
 
 const Home = () => {
