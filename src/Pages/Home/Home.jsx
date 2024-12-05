@@ -11,7 +11,7 @@ import BestSellingProduct from '../../Component/BestSellingProduct'
 
 const Home = () => {
   const myStyle = {
-    backgroundImage:"url(./bannaer.jpg)"
+    backgroundImage:"linear-gradient(180deg, rgba(255, 255, 255, 0) 86.13%, #FFFFFF 100%), url(./bannaer.jpg)"
   }
   return (
     <>
