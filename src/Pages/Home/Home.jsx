@@ -12,8 +12,9 @@ import BestSellingProduct from '../../Component/BestSellingProduct'
 const Home = () => {
   return (
     <>
+     
     <div className=' w-full h-full '>
-    <div className=' w-[1440px] mx-auto h-[1084px] bg-cover bg-no-repeat bg-custom-gradient '>
+    <div className=' w-[1440px] mx-auto h-[1084px] bg-cover bg-custom-gradient '>
     <Navbar/>
     <div className='grid items-center justify-center '>
       <h1 className='w-[861px] h-[208px] absolute top-[161px] left-[340px] font-gilroy font-bold text-[77px] leading-[104px] tracking-[-0.01em] text-[#FFFFFF] text-center'>Make Your Interior More Minimalistic & Modern</h1>
