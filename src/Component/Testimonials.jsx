@@ -5,19 +5,19 @@ import Client3 from '/Client3.jpg'
 
 const Testimonials = () => {
   return (
-    <div className='mx-auto'>
+    <div className=''>
         <div>
-        <h2 className=" absolute w-[155px] h-[22px] top-[4285.42px] left-[631px] font-gilroy font-semibold text-[18px] leading-[21.09px] tracking-[0.175em] text-center text-[#E58411]">TESTIMONIALS</h2> 
-        <h1 className=" absolute w-[413px] h-[52px] top-[4327.42px] left-[502px] font-gilroy font-bold text-[42px] leading-[49.22px] text-center text-[#1E1E1E]">Our Client Reviews</h1> 
+        <h2 className=" absolute w-[155px] h-[22px] top-[4285.42px] left-[651px] font-gilroy font-semibold text-[18px] leading-[21.09px] tracking-[0.175em] text-center text-[#E58411]">TESTIMONIALS</h2> 
+        <h1 className=" absolute w-[413px] h-[52px] top-[4327.42px] left-[530px] font-gilroy font-bold text-[42px] leading-[49.22px] text-center text-[#1E1E1E]">Our Client Reviews</h1> 
         </div>
         <div className=''>
     
-        <div className=' '>
-            <img src={Client1} alt="" className=' absolute w-[370px] h-[506px] top-[4439.42px] left-[147px]' />
-            <img src={Client2} alt="" className=' absolute w-[370px] h-[506px] top-[4439.42px] left-[964px]' />
-            <img src={Client3} alt="" className=' absolute w-[370px] h-[506px] top-[4439.42px] left-[556px] ' />
+        <div className='mx-auto '>
+            <img src={Client1} alt="" className=' absolute w-[370px] h-[506px] top-[4439.42px] left-[167px]' />
+            <img src={Client2} alt="" className=' absolute w-[370px] h-[506px] top-[4439.42px] left-[984px]' />
+            <img src={Client3} alt="" className=' absolute w-[370px] h-[506px] top-[4439.42px] left-[576px] ' />
         </div>
-        <button className=" absolute w-12.5 h-12.5 top-[4583px] left-[105px] p-[11.96px_0_0_0] gap-[10.87px] rounded-tl-[26.09px] ">
+        <button className=" absolute w-12.5 h-12.5 top-[4583px] left-[125px] p-[11.96px_0_0_0] gap-[10.87px] rounded-tl-[26.09px] ">
 <span className="sr-only">Previous</span>
           <svg width="90" height="90" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_d_3_7607)">
@@ -38,7 +38,7 @@ const Testimonials = () => {
 </defs>
 </svg>
         </button> 
-        <button className=" absolute w-12.5 h-12.5 top-[4583px] left-[1286px] p-[11.96px_0_0_0] gap-[10.87px] rounded-tl-[26.09px] ">
+        <button className=" absolute w-12.5 h-12.5 top-[4583px] left-[1306px] p-[11.96px_0_0_0] gap-[10.87px] rounded-tl-[26.09px] ">
           <span className="sr-only">Next</span>
           <svg width="90" height="90" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_d_3_7604)">

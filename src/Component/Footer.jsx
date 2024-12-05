@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     
 
-<footer className="  absolute mx-auto bg-[#F7F7F7] min-w-full h-[462px]  top-[5060px]">
+<footer className="  absolute  bg-[#F7F7F7] min-w-full h-[462px] left-5   top-[5060px]">
   <div className="">
     <div className=" ">
       <div className='w-[293px] h-[146px] absolute top-[118px] left-[188px]  p-[0px_0px_10px_0px]'>

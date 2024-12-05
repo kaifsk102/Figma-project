@@ -32,7 +32,7 @@ const BestSellingProduct = () => {
 </svg>
         </button>
         
-        <button className="w-[50px] h-[50px] absolute top-[1996px] left-[1294px] pt-[11.96px] gap-[10.87px]">
+        <button className="w-[50px] h-[50px] absolute top-[1996px] left-[1309px] pt-[11.96px] gap-[10.87px]">
           <span className="sr-only">Next</span>
           <svg width="90" height="90" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_d_3_7604)">
