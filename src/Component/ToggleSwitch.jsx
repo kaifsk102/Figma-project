@@ -44,7 +44,7 @@ const ToggleSwitch = () => {
           </button>
         ))}
       </div>
-      <div className='flex justify-center  w-screen h-[494px] mt-16'>
+      <div className='flex justify-center items-center  w-screen min-h-[494px] mt-10'>
       <button className="   ">
 <span className="sr-only">Previous</span>
           <svg width="90" height="90" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -66,7 +66,7 @@ const ToggleSwitch = () => {
 </defs>
 </svg>
       </button>
-      <div className=" chair grid grid-cols-4 gap-8 ">
+      <div className=" chair grid grid-cols-4 gap-7 ">
           
         <div className="bg-white p-5 space-y-2 rounded-lg shadow-md text-center ">
             <img src={chair} alt="Sakarias Armchair" className="w-[217px] h-[255px]  mb-4" />
@@ -75,7 +75,7 @@ const ToggleSwitch = () => {
             <div className="flex ">
               <span className="text-yellow-500 text-lg ">★★★★★</span>
             </div>
-          <div className=' flex justify-between py-7'>
+          <div className=' flex justify-between pt-5'>
             <p className="text-lg text-[#0D1B39] font-bold">$392</p>
             <button className="bg-blue-950 text-white py-2 px-4 rounded-full">+</button>
           </div>  
@@ -87,7 +87,7 @@ const ToggleSwitch = () => {
             <div className="flex ">
               <span className="text-yellow-500 text-lg ">★★★★★</span>
            </div>
-          <div className=' flex justify-between py-7'>
+          <div className=' flex justify-between pt-5'>
             <p className="text-lg text-[#0D1B39] font-bold">$299</p>
             <button className="bg-blue-950 text-white py-2 px-4 rounded-full">+</button>
           </div>  
@@ -100,7 +100,7 @@ const ToggleSwitch = () => {
             <div className="flex ">
               <span className="text-yellow-500 text-lg ">★★★★★</span>
            </div>
-          <div className=' flex justify-between py-7'>
+          <div className=' flex justify-between pt-5'>
             <p className="text-lg text-[#0D1B39] font-bold">$519</p>
             <button className="bg-blue-950 text-white py-2 px-4 rounded-full">+</button>
           </div>  
@@ -113,7 +113,7 @@ const ToggleSwitch = () => {
             <div className="flex ">
               <span className="text-yellow-500 text-lg ">★★★★★</span>
            </div>
-          <div className=' flex justify-between py-7'>
+          <div className=' flex justify-between pt-5'>
             <p className="text-lg text-[#0D1B39] font-bold">$921</p>
             <button className="bg-blue-950 text-white py-2 px-4 rounded-full">+</button>
           </div>  

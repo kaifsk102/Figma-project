@@ -5,12 +5,12 @@ import Client3 from '/Client3.jpg'
 
 const Testimonials = () => {
   return (
-    <div className=' mx-32  min-h-screen mt-20   '>
-        <div className=' mb-20 space-y-5'>
-        <h2 className=" font-gilroy font-semibold text-[18px] leading-[21.09px] tracking-[0.175em] text-center text-[#E58411]">TESTIMONIALS</h2> 
-        <h1 className=" font-gilroy font-bold text-[42px] leading-[49.22px] text-center text-[#1E1E1E]">Our Client Reviews</h1> 
+    <div className='w-screen  min-h-screen py-10 '>
+        <div className=' mb-14 space-y-3'>
+        <h2 className=" font-gilroy font-semibold text-[18px] tracking-[0.175em] text-center text-[#E58411]">TESTIMONIALS</h2> 
+        <h1 className=" font-gilroy font-bold text-[42px]  text-center text-[#1E1E1E]">Our Client Reviews</h1> 
         </div>
-        <div className=' flex'>
+        <div className=' flex justify-center'>
         <button className=" ">
 <span className="sr-only">Previous</span>
           <svg width="90" height="90" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -32,7 +32,7 @@ const Testimonials = () => {
 </defs>
 </svg>
         </button> 
-        <div className='grid grid-cols-3  '>
+        <div className='grid grid-cols-3 '>
             <img src={Client1} alt="" className='  w-[370px] h-[506px] ' />
             <img src={Client2} alt="" className='  w-[370px] h-[506px] ' />
             <img src={Client3} alt="" className='  w-[370px] h-[506px] ' />

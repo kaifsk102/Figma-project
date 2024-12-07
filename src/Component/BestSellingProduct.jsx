@@ -5,8 +5,8 @@ import ToggleSwitch from './ToggleSwitch';
 const BestSellingProduct = () => {
 
   return (
-    <div className="bg-[#F7F7F7] mx-auto py-12 w-screen  h-full font-gilroy">
-      <h1 className=" font-bold text-[42px]  text-center">Best Selling Product</h1>
+    <div className="bg-[#F7F7F7] w-screen min-h-screen font-gilroy">
+      <h1 className=" font-bold text-[42px] pt-10  text-center">Best Selling Product</h1>
       <ToggleSwitch/>
   </div>
   );

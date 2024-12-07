@@ -2,10 +2,10 @@ import React from 'react';
 
 const WhyChoosingUs = () => {
   return (
-    <div className=" h-[404px] items-center px-32 mt-20 flex font-gilroy gap-20 ">
+    <div className="min-h-[404px] w-screen items-center px-28 flex font-gilroy  ">
       
-          <p className='font-bold text-[42px] flex'> Why Choosing Us</p>
-      <div className=" flex ml-16  gap-10">
+          <p className='font-bold text-[42px] '> Why Choosing Us</p>
+      <div className=" flex ml-16 space-x-10">
         
         <div className=" space-y-5 ">
           <h3 className="font-bold text-[20px]   text-[#1E1E1E] ">Luxury facilities</h3>
