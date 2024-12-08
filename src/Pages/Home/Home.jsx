@@ -16,7 +16,7 @@ const Home = () => {
   return (
     <>
      
-    <div className=' w-screen  h-full '>
+    <div className=' w-full  h-full '>
     <div className=' mx-auto h-[1084px] bg-cover bg-no-repeat ' style={myStyle} >
     <Navbar/>
     <div className='flex flex-col  items-center justify-center pt-[100px] gap-y-5 '>
@@ -26,8 +26,8 @@ const Home = () => {
     </div>
     </div>
     <WhyChoosingUs/>
-    <BestSellingProduct/>
-    <div className='AboutUs'>
+    <BestSellingProduct />
+    <div className='AboutUs ' id='aboutus'>
       <Experiences/>
       <Materials/>
       <Testimonials/>

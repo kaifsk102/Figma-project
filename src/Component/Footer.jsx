@@ -4,13 +4,13 @@ const Footer = () => {
   return (
     
 
-<footer className="  bg-[#F7F7F7] w-screen justify-items-center content-center h-[402px]">
+<footer id='contact' className="  bg-[#F7F7F7] w-screen justify-items-center content-center h-[402px]">
   <div className="  space-y-14   ">
     <div className=" flex space-x-28 ">
       <div className=' space-y-10 '>
         <h1 className=' font-gilroy font-bold text-[28px]   '>Panto</h1>
         <p className="  opacity-[0.8] font-gilroy font-medium text-[15px]  text-[#1E1E1E]">
-        The advantage of hiring a workspace with us <br /> is that  givees you comfortable service and <br /> all-around facilities.
+        The advantage of hiring a workspace with<br /> us is that  givees you comfortable service<br /> and all-around facilities.
         </p>
       </div>
       
