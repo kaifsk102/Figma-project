@@ -1,68 +1,53 @@
-import React from 'react'
-import Client1 from '/Client1.jpg'
-import Client2 from '/Client2.jpg'
-import Client3 from '/Client3.jpg'
+import React from 'react';
+import ClientCard from './ClientCard';
+import Client1 from '/client1.png';
+import Client2 from '/client2.png';
+import Client3 from '/client3.png';
+import Bg1 from '/cl bg1.png'; 
+import Bg2 from '/cl bg2.png';
+import Bg3 from '/cl bg3.png'; 
 
 const Testimonials = () => {
+  const clientReviews = [
+    {
+      image: Client1,
+      name: 'Alice Johnson',
+      review: 'I love the revolving feature of this recliner all the function are working properly and the motorized feature is amazing delivery was on time with nice packaging. Thanks Wooden stree',
+      rating: 5,
+      bgImage: Bg1,
+    },
+    {
+      image: Client2,
+      name: 'Michael Smith',
+      review: 'I am realy happy as its fits in all my needs what I actually want I got that. Fabric of the sofa they have used in it is amazing and its of high quality very comfortable in setting. Color of the sofa is also very nice.',
+      rating: 5,
+      bgImage: Bg2,
+    },
+    {
+      image: Client3,
+      name: 'Sophia Lee',
+      review: 'I have order from the store its really amazing and delivery to me on time without any delay. Headrest is very comfortable and plus point I like that we can adjust the backrest also very nice chair.',
+      rating: 4,
+      bgImage: Bg3,
+    },
+  ];
+
   return (
-    <div className='w-screen  min-h-screen py-10 '>
-        <div className=' mb-14 space-y-3'>
-        <h2 className=" font-gilroy font-semibold text-[18px] tracking-[0.175em] text-center text-[#E58411]">TESTIMONIALS</h2> 
-        <h1 className=" font-gilroy font-bold text-[42px]  text-center text-[#1E1E1E]">Our Client Reviews</h1> 
-        </div>
-        <div className=' flex justify-center'>
-        <button className=" ">
-<span className="sr-only">Previous</span>
-          <svg width="90" height="90" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g filter="url(#filter0_d_3_7607)">
-<rect width="50" height="50" rx="25" transform="matrix(-1 0 0 1 70 13)" fill="white" shape-rendering="crispEdges"/>
-<path d="M53.6958 38.4355H36.4857M36.4857 38.4355C36.4857 38.4355 41.364 35.2272 42.3552 32.5659M36.4857 38.4355C36.4857 38.4355 40.7983 41.45 42.3552 44.305" stroke="#1E1E1E" stroke-width="2.17391" stroke-linecap="square"/>
-</g>
-<defs>
-<filter id="filter0_d_3_7607" x="0.46875" y="0.5" width="89.0625" height="89.0625" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="7.03125"/>
-<feGaussianBlur stdDeviation="9.76562"/>
-<feComposite in2="hardAlpha" operator="out"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_3_7607"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_3_7607" result="shape"/>
-</filter>
-</defs>
-</svg>
-        </button> 
-        <div className='grid grid-cols-3 '>
-            <img src={Client1} alt="" className='  w-[370px] h-[506px] ' />
-            <img src={Client2} alt="" className='  w-[370px] h-[506px] ' />
-            <img src={Client3} alt="" className='  w-[370px] h-[506px] ' />
-        </div>
-        
-        <button className="  ">
-          <span className="sr-only">Next</span>
-          <svg width="90" height="90" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g filter="url(#filter0_d_3_7604)">
-<rect x="20" y="13" width="50" height="50" rx="25" fill="white" shape-rendering="crispEdges"/>
-<path d="M36.3042 38.4355H53.5143M53.5143 38.4355C53.5143 38.4355 48.636 35.2272 47.6448 32.5659M53.5143 38.4355C53.5143 38.4355 49.2017 41.45 47.6448 44.305" stroke="#1E1E1E" stroke-width="2.17391" stroke-linecap="square"/>
-</g>
-<defs>
-<filter id="filter0_d_3_7604" x="0.46875" y="0.5" width="89.0625" height="89.0625" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="7.03125"/>
-<feGaussianBlur stdDeviation="9.76562"/>
-<feComposite in2="hardAlpha" operator="out"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_3_7604"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_3_7604" result="shape"/>
-</filter>
-</defs>
-</svg>
+    <div className="w-screen min-h-screen py-10 flex flex-col items-center">
+      {/* Section Title */}
+      <div className="mb-14 space-y-3 text-center">
+        <h2 className="font-gilroy font-semibold text-[16px] tracking-[0.175em] text-[#E58411] md:text-[18px]">TESTIMONIALS</h2>
+        <h1 className="font-gilroy font-bold text-[28px] md:text-[42px] text-[#1E1E1E]">Our Client Reviews</h1>
+      </div>
 
-        </button>
-        </div>
+      {/* Client Cards in a Row */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-24 w-full max-w-6xl px-4 md:px-8">
+        {clientReviews.map((client, index) => (
+          <ClientCard key={index} {...client} />
+        ))}
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Testimonials
+export default Testimonials;
