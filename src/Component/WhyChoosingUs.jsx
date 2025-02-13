@@ -4,7 +4,7 @@ const WhyChoosingUs = () => {
   return (
     <div className="min-h-[404px] w-full px-6 md:px-16 lg:px-28 flex flex-col items-center font-gilroy">
       {/* Title */}
-      <p className="font-bold text-[28px] md:text-[42px] text-center mb-8">Why Choosing Us</p>
+      <p className="font-bold text-[28px] md:text-[42px] text-center my-10">Why Choosing Us</p>
 
       {/* Content Grid (Responsive) */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-16 text-center md:text-left w-full max-w-5xl">

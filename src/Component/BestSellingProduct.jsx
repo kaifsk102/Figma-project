@@ -46,7 +46,7 @@ const BestSellingProducts = () => {
 
 
   return (
-    <div className="flex flex-col items-center w-full py-14 bg-gray-100">
+    <div id="Shop" className="flex flex-col items-center w-full py-14 bg-gray-100">
       <h2 className="text-5xl font-bold mb-12">Best Selling Product</h2>
 
       {/* Category Toggle */}

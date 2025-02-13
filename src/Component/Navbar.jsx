@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-scroll';
 import bag from '/bag.svg';
 import DropdownMenu from './DropdownMenu';
 
@@ -6,16 +7,16 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className=" text-white py-6 px-6 md:px-20 flex justify-between items-center relative">
+    <nav className="fixed top-0 left-0 w-full bg-zinc-800 rounded-lg text-white py-4 px-6 md:px-20 flex justify-between items-center z-50">
       {/* Logo */}
       <p className="font-gilroy font-bold text-[24px] md:text-[28px]">Panto</p>
 
       {/* Desktop Navigation */}
       <div className="hidden md:flex font-gilroy font-medium text-[16px] md:text-[18px] space-x-6 md:space-x-16">
-        <a href="#"><DropdownMenu /></a>
-        <a href="#shop" className="hover:text-orange-400 transition duration-300">Shop</a>
-        <a href="#aboutus" className="hover:text-orange-400 transition duration-300">About Us</a>
-        <a href="#contact" className="hover:text-orange-400 transition duration-300">Contact</a>
+        <a href="#" className="cursor-pointer hover:text-orange-400"><DropdownMenu /></a>
+        <Link to="Shop" smooth={true} duration={800} className="cursor-pointer hover:text-orange-400">Shop</Link>
+        <Link to="aboutus" smooth={true} duration={800} className="cursor-pointer hover:text-orange-400">About Us</Link>
+        <Link to="contact" smooth={true} duration={800} className="cursor-pointer hover:text-orange-400">Contact</Link>
       </div>
 
       {/* Mobile Menu Button */}
